@@ -1,0 +1,35 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #ecf0f1;
+  background-color: #2c3e50;
+
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+}
+
+.header-title {
+  flex: 1;
+  text-align: center;
+}
+
+img {
+  width: 3vw;
+  height: auto;
+}
+
+button.discord,
+button.instagram {
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5em;
+}
