@@ -11,5 +11,5 @@ import { HeaderComponemt } from "./header/header.component";
 
 
 export class AppComponent {
-  title = 'Hovedside';
+  title = '';
 }
