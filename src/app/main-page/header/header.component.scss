@@ -1,16 +1,20 @@
-.main-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   color: #ecf0f1;
   background-color: #878672;
-
   border-radius: 1.5em;
   padding: 0.5em 1em;
 }
 
 .header-title {
   flex: 1;
-  text-align: center;
+  align-items: center;
+  text-align: start;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
 }
